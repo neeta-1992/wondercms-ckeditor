@@ -1,0 +1,16 @@
+.editor {
+  margin: 8px auto;
+}
+
+.cke_editable p{
+color:#000 !important;
+margin-bottom: 5px;
+}
+.cke{
+  width: 100%;
+}
+
+textarea.cke_source{
+  color: #000 !important;
+  height: 400px !important;
+}
