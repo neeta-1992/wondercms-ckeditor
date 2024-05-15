@@ -1,8 +1,8 @@
 {
     "version": 1,
     "plugins": {
-        "ckeditor": {
-            "name": "ckeditor",
+        "wondercms-ckeditor": {
+            "name": "wondercms-ckeditor",
             "repo": "https://github.com/neeta-1992/wondercms-ckeditor/tree/master",
             "zip": "https://github.com/neeta-1992/wondercms-ckeditor/archive/master.zip",
             "summary": "Adds an WYSIWYG editor to all content editable fields.",
