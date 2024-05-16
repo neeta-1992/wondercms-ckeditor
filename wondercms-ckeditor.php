@@ -22,7 +22,7 @@ function ckeditorJS($args)
     $script = <<<EOT
     <script src='https://code.jquery.com/jquery-3.7.1.js'></script>
     <script src='https://cdn.ckeditor.com/4.15.1/full-all/ckeditor.js'></script>
-    <script src='{$Wcms->url('plugins/new-main/js/ckeditor.js')}'></script>
+    <script src='{$Wcms->url('plugins/wondercms-ckeditor/js/ckeditor.js')}'></script>
 EOT;
     $args[0] .= $script;
   }
