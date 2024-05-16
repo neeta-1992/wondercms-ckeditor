@@ -35,7 +35,7 @@ function ckeditorCSS($args)
   if ($Wcms->loggedIn) {
     $script = <<<EOT
 
-    <link rel='stylesheet' href='{$Wcms->url('plugins/new-main/css/ckeditor.css')}' media='screen'>
+    <link rel='stylesheet' href='{$Wcms->url('plugins/wondercms-ckeditor/css/ckeditor.css')}' media='screen'>
 EOT;
     $args[0] .= $script;
   }
